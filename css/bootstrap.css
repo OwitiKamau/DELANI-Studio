@@ -575,10 +575,11 @@ pre code {
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 10px;
+  padding-top: -100vh;
   margin-right: auto;
   margin-left: auto;
+  position: absolute;
 }
 
 @media (min-width: 576px) {
@@ -612,6 +613,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  justify-content: space-around;
 }
 
 .no-gutters {

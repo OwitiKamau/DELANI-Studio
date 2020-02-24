@@ -1,0 +1,22 @@
+#DELANI{
+  position: relative;
+  padding-top: 250px;
+}
+#clicker{
+  position: relative;
+  padding-top: 500px;
+}
+#services{
+  position: relative;
+  padding-top: 100px;
+}
+#portfolio img{
+  width: 100%;
+}
+.projectsect{
+  height: 15%;
+  width: 15%;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
